@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check render 1`] = `
+<div>
+  <p
+    style="color: red;"
+  >
+    some text
+  </p>
+</div>
+`;
