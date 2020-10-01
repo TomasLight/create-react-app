@@ -1,4 +1,5 @@
 import React from "react";
+import { Some } from "./Some";
 
 interface IMyComponentProps {
     text: string;
@@ -11,7 +12,7 @@ const MyComponent = (props: Props) => {
 
     return (
         <p style={{ color: "red" }}>
-            {text}
+            {`${nameof<Some>(o => o.myProperty)}: ${text}`}
         </p>
     );
 };
