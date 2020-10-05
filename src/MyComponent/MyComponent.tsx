@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 interface IMyComponentProps {
     text: string;
@@ -7,13 +7,13 @@ interface IMyComponentProps {
 type Props = IMyComponentProps;
 
 const MyComponent = (props: Props) => {
-    const { text } = props;
+  const { text } = props;
 
-    return (
-        <p style={{ color: "red" }}>
-            {text}
-        </p>
-    );
+  return (
+    <p style={{ color: 'red' }}>
+      {text}
+    </p>
+  );
 };
 
 export { MyComponent };
