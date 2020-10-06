@@ -1,25 +1,26 @@
 {
+  "compileOnSave": false,
   "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
     "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
+    "checkJs": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "jsx": "react",
     "module": "esnext",
     "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react"
+    "noErrorTruncation": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "target": "es6",
+    "watch": false,
+    "noImplicitAny": false
   },
   "include": [
     "src"
+  ],
+  "exclude": [
+    "src/**/*.test.ts?(x)"
   ]
 }
