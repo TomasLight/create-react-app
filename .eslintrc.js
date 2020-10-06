@@ -30,11 +30,6 @@ module.exports = {
     "sonarjs",
     "@typescript-eslint",
   ],
-  // settings: {
-  //   'import/resolver': {
-  //     typescript: {}, // this loads <rootdir>/tsconfig.json to eslint
-  //   },
-  // },
   rules: {
     indent: [1, 2, { SwitchCase: 1 }],
     curly: [1, 'all'],
